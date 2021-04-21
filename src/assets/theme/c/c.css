@@ -1,0 +1,11 @@
+.c .header{
+    color: rgb(43, 226, 141);
+}
+
+.c .logo {
+	background: url(bg-banner.svg);
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-size: 18px auto;
+  }

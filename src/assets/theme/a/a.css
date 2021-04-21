@@ -1,0 +1,13 @@
+.a .header{
+    color: blueviolet;
+}
+
+.a .logo {
+	background: url(bg_heading.svg);
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-size: 18px auto;
+  }
+
+  
