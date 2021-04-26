@@ -8,12 +8,17 @@ const Theme1 = React.lazy(() => import('./Theme1'));
 const Theme2 = React.lazy(() => import('./Theme2'));
 const Theme3 = React.lazy(() => import('./Theme3'));
 
+
 const ThemeSelector = ({ children }) => {
+
     const shouldRenderTheme1 = false;
-    const shouldRenderTheme2 = true;
-    const shouldRenderTheme3 = false;
+    const shouldRenderTheme2 = false;
+    const shouldRenderTheme3 = true;
+
+    /// domain
+    // login , student / teactehr / agegroup 
     
-    document.body.classList.add("b");
+    document.body.classList.add("c");
     return (
         <>
             {/* Conditionally render theme, based on the current client context */}
